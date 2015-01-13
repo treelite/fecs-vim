@@ -15,10 +15,10 @@ function s:check(start, end)
     call add(cmdline, s:root.'/fecs.js')
     let input = getline(a:start, a:end)
 
-    " ''与""的区别
-    let res = system(join(cmdline, ' '), join(input, "\n"))
+    " 结尾补充一个换行符 getline的内容没有换行符
+    let res = system(join(cmdline, ' '), join(input, "\n")."\n")
 
-    let lines = split(res, '\n')
+    let lines = split(res, "\n")
 
     let max = len(lines)
     if max <= 0
