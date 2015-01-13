@@ -1,13 +1,13 @@
 fecs-vim
 ===
 
-Anothor [fecs](https://github.com/ecomfe/fecs) plugin for VIM.
+Anothor [FECS](https://github.com/ecomfe/fecs) plugin for VIM.
 
 If you want more powerful plugin, try [fecs.vim](https://github.com/hushicai/fecs.vim).
 
 ## Installation
 
-Please install [fecs](https://github.com/ecomfe/fecs) and [Pathogen](https://github.com/tpope/vim-pathogen/) first, and then:
+Please install [FECS](https://github.com/ecomfe/fecs) and [Pathogen](https://github.com/tpope/vim-pathogen/) first, and then:
 
 ```sh
 git clone https://github.com/treelite/fecs-vim.git ~/.vim/bundle/fecs-vim
