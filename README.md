@@ -1,7 +1,7 @@
 fecs-vim
 ===
 
-Anothor [FECS](https://github.com/ecomfe/fecs) plugin for VIM.
+Another [FECS](https://github.com/ecomfe/fecs) plugin for VIM.
 
 If you want more powerful plugin, try [fecs.vim](https://github.com/hushicai/fecs.vim).
 
