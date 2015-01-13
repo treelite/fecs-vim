@@ -7,7 +7,7 @@ If you want more powerful plugin, try [fecs.vim](https://github.com/hushicai/fec
 
 ## Installation
 
-Please install [Pathogen](https://github.com/tpope/vim-pathogen/) first, and then:
+Please install [fecs](https://github.com/ecomfe/fecs) and [Pathogen](https://github.com/tpope/vim-pathogen/) first, and then:
 
 ```sh
 git clone https://github.com/treelite/fecs-vim.git ~/.vim/bundle/fecs-vim
