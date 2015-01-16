@@ -23,6 +23,7 @@ function s:check(start, end)
     let max = len(lines)
     if max <= 0
         echo 'Everything is OK'
+        cclose
         return
     endif
 
