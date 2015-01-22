@@ -30,7 +30,7 @@ function s:check(start, end)
     let qfList = []
     let index = 0
     while index < max
-        let item = split(lines[index], ',')
+        let item = split(lines[index], '|')
         let index = index + 1
         let o = {}
         let o.bufnr = bufnr('%')

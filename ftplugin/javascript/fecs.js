@@ -16,7 +16,7 @@ function report(data) {
         var res = {};
         item.replace(REG_REP, function () {
             var args = Array.prototype.slice.call(arguments);
-            output.push(args.slice(1, 6).join(','));
+            output.push(args.slice(1, 6).join('|'));
         });
     });
 
