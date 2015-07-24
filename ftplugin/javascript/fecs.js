@@ -3,8 +3,8 @@
  * @author treelite(c.xinle@gmail.com)
  */
 
-//fecs ERROR → line  21, col   5, rule 053: [强制] 参数和返回值注释必须包含类型信息和说明。
-var REG_REP = /^fecs\s+([^ ]+)\s+→\s+line\s+(\d+),\s+col\s+(\d+),\s+rule\s+(\d+):\s+(.+)$/;
+//fecs ERROR → line   1, col   1,   JS045: [强制] 文件顶部必须包含文件注释，用 `@file` 标识文件说明。
+var REG_REP = /^fecs\s+([^ ]+)\s+→\s+line\s+(\d+),\s+col\s+(\d+),\s+[^0-9]+(\d+):\s+(.+)$/;
 
 function report(data) {
     var output = [];
