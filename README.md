@@ -1,9 +1,9 @@
 fecs-vim
 ===
 
-Another [FECS](https://github.com/ecomfe/fecs) plugin for VIM.
+Another light [FECS](https://github.com/ecomfe/fecs) plugin for VIM.
 
-If you want more powerful plugin, try [fecs.vim](https://github.com/hushicai/fecs.vim).
+If you want more powerful plugin, please try [fecs.vim](https://github.com/hushicai/fecs.vim).
 
 ## Installation
 

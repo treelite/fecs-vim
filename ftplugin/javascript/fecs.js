@@ -3,9 +3,16 @@
  * @author treelite(c.xinle@gmail.com)
  */
 
-//fecs ERROR → line   1, col   1,   JS045: [强制] 文件顶部必须包含文件注释，用 `@file` 标识文件说明。
+/* eslint-disable no-console */
+
+// fecs ERROR → line   1, col   1,   JS045: [强制] 文件顶部必须包含文件注释，用 `@file` 标识文件说明。
 var REG_REP = /^fecs\s+([^ ]+)\s+→\s+line\s+(\d+),\s+col\s+(\d+),\s+[^0-9]+(\d+):\s+(.+)$/;
 
+/**
+ * 输出检查结果
+ *
+ * @param {Array} data fecs的输出结果
+ */
 function report(data) {
     var output = [];
 
@@ -13,14 +20,13 @@ function report(data) {
         if (!item) {
             return;
         }
-        var res = {};
         item.replace(REG_REP, function () {
             var args = Array.prototype.slice.call(arguments);
             output.push(args.slice(1, 6).join('|'));
         });
     });
 
-    return console.log(output.join('\n'));
+    console.log(output.join('\n'));
 }
 
 var filename = process.argv[2];
