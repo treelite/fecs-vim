@@ -49,3 +49,10 @@ endfunction
 
 " 设置命令适用的范围，默认整个buffer
 command -range=% FECS call s:check(<line1>, <line2>)
+
+" 按键注册
+if !exists('g:fecs_hint_key') || g:fecs_hint_key == ''
+    let g:fecs_hint_key = '<F5>'
+endif
+
+exe 'nmap '.g:fecs_hint_key.' :FECS<CR>'
